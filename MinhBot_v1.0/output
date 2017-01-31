@@ -1,0 +1,11 @@
+<situation><input>minh</input><output>That's a very nice name, Minh. What does it mean ?</output></situation>
+<situation><input>nothing</input><output>If it doesn't mean anything, why does it exist ?</output></situation>
+<situation><input>my parent</input><output>have you told many people about your parent ?</output></situation>
+<situation><input>yes</input><output>what was the response ?</output></situation>
+<situation><input>good</input><output>alright then.</output></situation>
+<situation><input>ok</input><output>Woe !</output></situation>
+<situation><input>whats that</input><output>I've lost the context again</output></situation>
+<situation><input>sex</input><output>Why on earth would you want to talk to a piece of software about sex ?</output></situation>
+<situation><input>because i want</input><output>be more specific</output></situation>
+<situation><input>you cant see me</input><output>yes i'm looking through the camera on your computer</output></situation>
+<situation><input>you just cant</input><output>oh yes i can</output></situation>

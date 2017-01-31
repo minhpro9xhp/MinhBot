@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><root>
+    <properties>
+        <name>CmdBot</name>
+        <id>cmdbot</id>
+        <version>1.0</version>
+        <description> </description>
+        <isactive>True</isactive>
+        <debugmode>True</debugmode>
+    </properties>
+    <start_function>
+        <case>
+            <input>chrome</input>
+            <input>open chrome</input>
+            <output>start chrome</output>
+        </case>
+        <case>
+            <input>facebook</input>
+            <input>open facebook</input>
+            <output>start chrome facebook.com</output>
+        </case>
+        <case>
+            <input>youtube</input>
+            <input>open youtube</input>
+            <output>start chrome youtube.com</output>
+        </case>
+        <case>
+            <input>google</input>
+            <input>open google</input>
+            <output>start chrome google.com</output>
+        </case>
+    <case><input>open tinhte</input><output>start chrome tinhte.vn</output></case>
+    <case><input>open trello</input><output>start chrome trello.com</output></case><case><input>open google calendar</input><output>start chrome calendar.google.com</output></case></start_function>
+
+    <shutdown_function>
+        <case>
+            <input>shutdown now</input>
+            <output>shutdown -s</output>
+        </case>
+        <case>
+            <input>shutdown -s -t 1800</input>
+            <input>shutdown in 30 minutes</input>
+            <input>shutdown in half an hour</input>
+            <output>shutdown -s -t 1800</output>
+        </case>
+    </shutdown_function>
+</root>

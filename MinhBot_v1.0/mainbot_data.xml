@@ -1,0 +1,10 @@
+<root>
+    <properties>
+        <name>Minh's Bot</name>
+        <id>mainbot</id>
+        <version>1.0</version>
+        <description>I'm Minh's Bot. I was born with the sole purpose is to help my master.</description>
+        <isactive>True</isactive>
+        <debugmode>True</debugmode>
+    </properties>
+</root>

@@ -1,0 +1,27 @@
+<root>
+    <cmd>
+        <user>open chrome</user>
+        <user>chrome</user>
+        <bot>@bot cmdbot @function start @parameter chrome</bot>
+    </cmd>
+    <cmd>
+        <user>open facebook</user>
+        <user>facebook</user>
+        <bot>@bot cmdbot @function start @parameter facebook</bot>
+    </cmd>
+    <cmd>
+        <user>user.train("cmdbot")</user>
+        <user>user train cmdbot</user>
+        <bot>@bot learningbot @function train @parameter cmdbot</bot>
+    </cmd>
+    <cmd>
+        <user>user.train("chatbot")</user>
+        <user>user train chatbot</user>
+        <bot>@bot learningbot @function train @parameter chatbot</bot>
+    </cmd>
+    <cmd>
+        <user>user.train("infobot")</user>
+        <user>user train infobot</user>
+        <bot>@bot learningbot @function train @parameter infobot</bot>
+    </cmd>
+</root>

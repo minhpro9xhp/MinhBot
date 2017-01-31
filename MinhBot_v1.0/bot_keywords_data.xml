@@ -1,0 +1,5 @@
+<root><keywords><chatbot></chatbot>
+<infobot></infobot>
+<cmdbot>open,  start,  youtube,  google,  facebook</cmdbot>
+<learningbot>user.train,     train,     bot,     cmdbot,     infobot,     chatbot</learningbot>
+</keywords></root>

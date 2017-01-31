@@ -1,0 +1,20 @@
+<users>
+	<user>
+		<name>Đặng Quang Minh</name>
+		<id>minhpro9xhp</id>
+		<password>Thidotranphu3</password>
+		<lasttimelogin> </lasttimelogin>
+	</user>
+	<user>
+		<name>admin</name>
+		<id>admin</id>
+		<password>admin</password>
+		<lasttimelogin> </lasttimelogin>
+	</user>
+	<user>
+		<name>Đặng Hải Lộc</name>
+		<id>hailoc12</id>
+		<password>loc123</password>
+		<lasttimelogin> </lasttimelogin>
+	</user>
+	</users>

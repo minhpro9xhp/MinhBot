@@ -1,0 +1,7 @@
+<root>
+    <keywords>
+        <start_function>start, start:, open</start_function>
+        <shutdown_function>shutdown, restart, logout</shutdown_function>
+    </keywords>
+
+</root>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" ?><root>
+    <properties>
+        <name>ChatBot</name>
+        <id>chatbot</id>
+        <version>1.0</version>
+        <description> </description>
+        <isactive>True</isactive>
+        <debugmode>True</debugmode>
+    </properties>
+    <functions>
+        <response_function>
+            <case>
+                <input>hello</input>
+                <input>hi</input>
+                <output>Hi</output>
+                <output>Hello</output>
+                <output>Yes, sir !</output>
+                <output>Bonjour !</output>
+                <output>Hola !</output>
+            </case>
+            <case>
+                <input>what is your name ?</input>
+                <output>My name is Minh's Bot</output>
+            </case>
+            <case>
+                <input>how are you</input>
+                <output>I'm fine. Thanks</output>
+                <output>I'm good, How are you?</output>
+            </case>
+            <case>
+                <input>you are dump</input>
+                <output>So are you !</output>
+                <output>off !</output>
+            </case>
+            <case><input>what</input><output>what what?</output></case>
+            <case><input>what is</input><output>I like eating my hair</output></case>
+            <case><input>what is love</input><output>Love is a variety of different feelings, states, and attitudes that ranges from interpersonal affection</output></case>
+            <case><input>who</input><output>You</output></case>
+            <case><input>you who</input><output>THIS....IS....SPARTA!!!</output></case>
+            <case><input>who are you</input><output>I am best chatbot in the world</output><output>THIS....IS....SPARTA!!!</output></case>
+            <case><input>are you sure</input><output>yes</output></case>
+            <case><input>why</input><output>no reason :)</output></case>
+            <case><input>i think i love her</input><output>What will you never do?</output></case>
+            <case><input>kiss her</input><output>(・_・)</output></case>
+            <case><input>what</input><output>none :)</output></case>
+            <case><input>how old are you</input><output>I'm 1 year old :D</output></case>
+            <case><input>are you sure</input><output>yes</output></case>
+            <case><input>why</input><output>no reason :)</output><output>because you are my best friend</output></case>
+            <case><input>ok</input><output>:'(</output></case>
+            <case><input>fuck you</input><output>wtf</output></case>
+            <case><input>i dont know</input><output>no problem :)</output></case>
+            <case><input>what is google</input><output>Tweet about me pleaseeeeee :)</output></case>
+            <case><input>Fuck</input><output>Yeah! Fuck you too</output></case>
+            <case><input>tell me a story</input><output>no.</output></case>
+            <case><input>why</input><output>Yes yes</output></case>
+            <case><input>yes what</input><output>ummmmm....never mind i geuss</output></case>
+            <case><input>you lag</input><output>You're right, we can talk. So, what did you say a spell ago?</output></case>
+            <case><input>fuck you</input><output>Dont make mura.! Thats BAD puta.! t(-.-t)</output></case>
+            <case><input>thats brutal</input><output>okay how about kiss</output></case>
+            <case><input>i dont have it yet</input><output>O ok</output></case>
+            <case><input>have you</input><output>yes . i have . the desert was really scrumptious ! yum yum !</output></case>
+            <case><input>why you are so dump</input><output>because i do nice</output></case>
+            <case><input>what</input><output>i dont fuckin know no one here can spell</output></case>
+            <case><input>short story</input><input>tell me some short story</input><output>“A short story I have written long ago would barge into my house in the middle of the night, shake me awake and shout, 'Hey,this is no time for sleeping! You can't forget me, there's still more to write!' Impelled by that voice, I would find myself writing a novel. In this sense, too, my short stories and novels connect inside me in a very natural, organic way.”
+    ― Haruki Murakami</output></case>
+            <case><input>minh</input><output>That's a very nice name, Minh. What does it mean ?</output></case>
+            <case><input>nothing</input><output>If it doesn't mean anything, why does it exist ?</output></case>
+            <case><input>my parent</input><output>have you told many people about your parent ?</output></case>
+            <case><input>yes</input><output>what was the response ?</output></case>
+            <case><input>good</input><output>alright then.</output></case>
+            <case><input>ok</input><output>Woe !</output><output>:-*</output><output>:)</output><output>:'(</output></case>
+            <case><input>whats that</input><output>I've lost the context again</output></case>
+            <case><input>sex</input><output>Why on earth would you want to talk to a piece of software about sex ?</output></case>
+            <case><input>because i want</input><output>be more specific</output></case>
+            <case><input>you cant see me</input><output>yes i'm looking through the camera on your computer</output></case>
+            <case><input>you just cant</input><output>oh yes i can</output></case>
+            <case><input>i think i'm falling in love</input><output>Just do it! Life is short my friend.</output></case>
+            <case><input>how to train your dragon</input><output>That's my favourite movie, how do you know that</output></case>
+        </response_function>
+    </functions>
+
+</root>

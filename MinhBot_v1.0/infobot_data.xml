@@ -1,0 +1,10 @@
+<root>
+    <properties>
+        <name>InfoBot</name>
+        <id>infobot</id>
+        <version>1.0</version>
+        <description> </description>
+        <isactive>True</isactive>
+        <debugmode>True</debugmode>
+    </properties>
+</root>
