@@ -1,0 +1,30 @@
+<root>
+    <function>
+        <id>search_information</id>
+        <keywords>search:</keywords>
+    </function>
+    <function>
+        <id>tell_a_random_quote</id>
+        <keywords>tell, a, quote, random</keywords>
+    </function>
+    <function>
+        <id>tell_a_random_joke</id>
+        <keywords>tell, a, joke, random</keywords>
+    </function>
+    <function>
+        <id>show_a_random_cat_picture</id>
+        <keywords>show, a, random, cat, picture</keywords>
+    </function>
+    <function>
+        <id>take_a_note</id>
+        <keywords>take note:, takenote:</keywords>
+    </function>
+    <function>
+        <id>list_notes</id>
+        <keywords>list, notes, all</keywords>
+    </function>
+    <function>
+        <id>delete_notes</id>
+        <keywords>delete, notes, note, delete notes, delete note</keywords>
+    </function>
+</root>
