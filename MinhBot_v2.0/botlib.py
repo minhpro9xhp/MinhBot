@@ -5,8 +5,8 @@ import collections
 
 class Botlib:
     class Directory:
-        jokes = 'data/jokes.xml'
-        quotes = 'data/quotes.xml'
+        jokes = 'reddit-top-2.5-million/data/3amjokes.csv'
+        quotes = 'reddit-top-2.5-million/data/quotes.csv'
         notes = 'data/notes.xml'
         catpictures = 'reddit-top-2.5-million/data/catpictures.csv'
 
@@ -24,9 +24,9 @@ class Botlib:
         if s == "search_information":
             self.response = self.search_information(args[0])
         elif s == "tell_a_random_quote":
-            self.response = self.tell_a_random_quote()
+            self.response = self.response_random_data(self.directory.quotes)
         elif s == "tell_a_random_joke":
-            self.response = self.tell_a_random_joke()
+            self.response = self.response_random_data(self.directory.jokes)
         elif s == "show_a_random_cat_picture":
             self.response = self.show_a_random_cat_picture()
         elif s == "take_a_note":
@@ -99,14 +99,43 @@ class Botlib:
         return response
 
 
+    def response_random_data(self, directory):
+        import csv
+        import random
+        with open(directory, 'r', encoding="utf-8") as csvfile:
+            data = list(csv.reader(csvfile))
+
+            csvrow = data[random.randint(1, len(data) - 1)]
+            title = csvrow[4]
+            selftext = csvrow[9]
+
+            return [title, selftext]
+
+
     def tell_a_random_quote(self):
-        quotes = load_data_from_xml_file(self.directory.quotes, "quote")
-        return [quotes[random.randint(0, len(quotes) - 1)]]
+        import csv
+        import random
+        with open(self.directory.quotes, 'r', encoding="utf-8") as csvfile:
+            data = list(csv.reader(csvfile))
+
+            csvrow = data[random.randint(1, len(data) - 1)]
+            title = csvrow[4]
+            selftext = csvrow[9]
+
+            return [title, selftext]
 
 
     def tell_a_random_joke(self):
-        jokes = load_data_from_xml_file(self.directory.jokes, "joke")
-        return [jokes[random.randint(0, len(jokes) - 1)]]
+        import csv
+        import random
+        with open(self.directory.jokes, 'r', encoding="utf-8") as csvfile:
+            data = list(csv.reader(csvfile))
+
+            csvrow = data[random.randint(1, len(data) - 1)]
+            title = csvrow[4]
+            selftext = csvrow[9]
+
+            return [title, selftext]
 
 
     def show_a_random_cat_picture(self):
